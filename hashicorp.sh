@@ -7,6 +7,6 @@ info "adding hashicorp repository"
 echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list > /dev/null
 
 info "installing terraform"
-apt update && apt install terraform -y
+apt update && apt install terraform -y > /dev/null
 
 info "terraform ready"
