@@ -5,7 +5,7 @@
 
 info() {
   message=$@
-  echo "info - $message" 
+  echo "info [$(date)] - $message" 
 }
 
 export -f info
@@ -16,3 +16,4 @@ source ./docker.sh
 source ./kubernetes.sh
 source ./hashicorp.sh
 source ./nvim.sh
+source ./fish.sh
