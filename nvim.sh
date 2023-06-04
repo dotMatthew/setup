@@ -9,6 +9,6 @@ info "creating .config directory if not exists"
 mkdir .config &>/dev/null 
 
 info "cloning kickstart.nvim project into .config directory"
-git clone https://github.com/nvim-lua/kickstart.nvim.git ~/.config/nvim
+git clone https://github.com/nvim-lua/kickstart.nvim.git ~/.config/nvim > /dev/null
 
 info "nvim ready"
