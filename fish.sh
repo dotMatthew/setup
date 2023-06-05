@@ -9,7 +9,7 @@ sudo apt update && sudo apt install -qq fish -y > /dev/null
 info "fish ready"
 
 info "installing omf (oh my fish)"
-curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish > /dev/null
 info "omf ready"
 
 info "install fish theme"
@@ -25,5 +25,5 @@ sudo apt-get install -qq fonts-powerline -y > /dev/null
 info "powerfonts installed"
 
 info "setting fish as default shell"
-chsh -s /usr/bin/fish
+chsh -s /usr/bin/fish > /dev/null
 info "fish shell ready"

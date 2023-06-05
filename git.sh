@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 info "installing git"
-apt install --q git -y > /dev/null
+apt install -qq git -y > /dev/null
 info "git ready"
 
 info "configure git"
