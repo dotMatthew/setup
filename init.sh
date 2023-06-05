@@ -17,3 +17,4 @@ source ./kubernetes.sh
 source ./hashicorp.sh
 source ./nvim.sh
 source ./fish.sh
+source ./alias.sh
