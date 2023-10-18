@@ -11,7 +11,7 @@ info "updating system"
 apt update -qq && apt upgrade -y -qq > /dev/null
 
 info "installing some basic packages..."
-apt install -qq curl git apt-transport-https vim snapd btop bat tmux -y > /dev/null
+apt install -qq curl git apt-transport-https ripgrep vim snapd btop bat tmux -y > /dev/null
 info "basic packages ready"
 
 info "linking batcat to bat alias"

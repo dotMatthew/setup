@@ -10,6 +10,6 @@ info "install helm cli"
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash > /dev/null
 info "helm ready"
 
-info "installing kotana lens"
+info "installing kotana lens" # Todo replace with openlens
 snap install kontena-lens --classic > /dev/null
 info "lens ready"

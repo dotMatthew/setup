@@ -10,5 +10,4 @@ mkdir .config &>/dev/null
 
 info "cloning kickstart.nvim project into .config directory"
 git clone --quiet https://github.com/nvim-lua/kickstart.nvim.git ~/.config/nvim > /dev/null
-
 info "nvim ready"
